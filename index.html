@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FinSmart Tracker - Finance Management Tool</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>FinSmart Tracker</h1>
+            <p>A finance management tool for budgeting, expense analysis, and investment tracking</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="dashboard">
+            <div class="summary-cards">
+                <div class="card">
+                    <h3>Total Balance</h3>
+                    <p class="amount">$12,450.75</p>
+                </div>
+                <div class="card">
+                    <h3>Monthly Budget</h3>
+                    <p class="amount">$3,200.00</p>
+                </div>
+                <div class="card">
+                    <h3>Expenses This Month</h3>
+                    <p class="amount">$2,150.25</p>
+                </div>
+                <div class="card">
+                    <h3>Investments</h3>
+                    <p class="amount">$8,500.00</p>
+                </div>
+            </div>
+
+            <div class="charts">
+                <div class="chart-container">
+                    <h2>Expense Distribution</h2>
+                    <div class="chart-placeholder">
+                        <p>Expense chart visualization</p>
+                    </div>
+                </div>
+                <div class="chart-container">
+                    <h2>Investment Growth</h2>
+                    <div class="chart-placeholder">
+                        <p>Investment growth chart</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="features">
+                <div class="feature-section">
+                    <h2>Budgeting</h2>
+                    <div class="budget-tracker">
+                        <div class="budget-item">
+                            <span>Housing</span>
+                            <span>$1,200.00 / $1,500.00</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 80%"></div>
+                        </div>
+                        
+                        <div class="budget-item">
+                            <span>Food</span>
+                            <span>$450.00 / $500.00</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 90%"></div>
+                        </div>
+                        
+                        <div class="budget-item">
+                            <span>Transportation</span>
+                            <span>$320.00 / $400.00</span>
+                        </div>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="feature-section">
+                    <h2>Expense Analysis</h2>
+                    <div class="expense-form">
+                        <h3>Add New Expense</h3>
+                        <form id="expense-form">
+                            <input type="text" placeholder="Description" required>
+                            <input type="number" placeholder="Amount" step="0.01" required>
+                            <select>
+                                <option value="food">Food</option>
+                                <option value="housing">Housing</option>
+                                <option value="transportation">Transportation</option>
+                                <option value="entertainment">Entertainment</option>
+                                <option value="utilities">Utilities</option>
+                            </select>
+                            <button type="submit">Add Expense</button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="feature-section">
+                    <h2>Investment Tracking</h2>
+                    <div class="investment-list">
+                        <div class="investment-item">
+                            <span>Stock Portfolio</span>
+                            <span class="investment-amount">$5,200.00</span>
+                            <span class="investment-change positive">+2.5%</span>
+                        </div>
+                        <div class="investment-item">
+                            <span>Mutual Funds</span>
+                            <span class="investment-amount">$2,300.00</span>
+                            <span class="investment-change positive">+1.8%</span>
+                        </div>
+                        <div class="investment-item">
+                            <span>Bonds</span>
+                            <span class="investment-amount">$1,000.00</span>
+                            <span class="investment-change negative">-0.3%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2025 FinSmart Tracker. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
