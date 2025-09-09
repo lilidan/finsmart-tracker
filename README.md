@@ -1,28 +1,25 @@
 # FinSmart Tracker
 
-A comprehensive finance management tool for budgeting, expense analysis, and investment tracking. FinSmart Tracker helps users understand their money flow, save smarter, and develop better financial habits.
+## App Description
 
-## Features
+A finance management tool for budgeting, expense analysis, and investment tracking. It helps users understand their money flow, save smarter, and develop better financial habits.
 
-- **Budgeting**: Track your expenses against set budgets for different categories
-- **Expense Analysis**: Visualize where your money is going with interactive charts
-- **Investment Tracking**: Monitor your investments and their performance over time
-- **Responsive Design**: Works seamlessly on desktop, tablet, and mobile devices
-- **Offline Capability**: Use the app even without an internet connection
+## 🚀 Visit App
 
-## Getting Started
+**[Click Here to Visit App](https://e75noz.vibefunc.com)**
 
-1. Clone the repository
-2. Open `index.html` in your browser
-3. Start tracking your finances!
+## 📸 Preview
 
-## Technologies Used
+<div align="center">
+  <img src="https://raw.githubusercontent.com/lilidan/finsmart-tracker/main/app-preview.png" alt="App Preview" height="600" style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1);" />
+</div>
 
-- HTML5
-- CSS3 (with Flexbox and Grid for responsive layout)
-- Vanilla JavaScript
-- Service Workers for offline functionality
+## 📄 About
 
-## License
+This app was generated with [Vibefunc](https://vibefunc.com). Vibefunc is an AI-powered free web app creation platform that lets you quickly build and deploy web applications.
 
-MIT License
+---
+
+<div align="center">
+  <p>Made with ❤️ using <a href="https://vibefunc.com">Vibefunc</a></p>
+</div>
